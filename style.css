@@ -1175,6 +1175,12 @@ footer {
 
 @media (width <=768px) {
 
+  .section-navbar .container{
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   main {
     padding: 5rem 0;
     height: 70vh;
